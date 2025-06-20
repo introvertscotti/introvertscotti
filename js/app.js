@@ -32,7 +32,10 @@ navLinks.forEach(
 
       let containerId = e.target.textContent;
       containerId = containerId.toLowerCase();
-
+      closeNav.addEventListener("click", () => {
+        nav.classList.remove("menu-toggle");
+        nav.style.transform = "translateX(101%);";
+      });
       if (containerId === "home") {
         document.querySelector("#hero").style.display = "flex";
         document.querySelector("#resources").style.display = "none";

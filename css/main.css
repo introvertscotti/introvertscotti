@@ -1205,11 +1205,10 @@ footer {
     font-size: 2rem;
     margin-top: 3rem;
   }
-  section#hero .social-links {
+  section#hero .container .social-links {
     margin: auto;
     margin-top: 5rem;
     width: 60%;
-    display: flex;
   }
 
   section#hero .thumbnail {
